@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>VedioServlet</servlet-name>
+    <servlet-class>Servlet.VedioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VedioServlet</servlet-name>
+    <url-pattern>/Vedio</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>OpenServlet</servlet-name>
+    <servlet-class>Servlet.OpenServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OpenServlet</servlet-name>
+    <url-pattern>/Open</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>listPlace</servlet-name>
+    <servlet-class>Servlet.ListPlaceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>listPlace</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+</web-app>
